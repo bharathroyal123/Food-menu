@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./food_menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Food Menu</title>
+</head>
+
+<body>
+    <section>
+        <div id="heading" >
+            <h1>Students Details<i class="fa-solid fa-plus add" onclick="display_form()"></i></h1>
+        </div>
+        <input type="search" placeholder="Search for sudent data" id="Search">
+        <div id="data">
+            <table border="1">
+                <thead >
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Qualification</th>
+                        <th>Email</th>
+                        <th>Phone.NO</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead >
+                <tbody id="Data">
+                    <tr>
+                        <td colspan="6">No Data Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section >
+    <div id="form">
+        <h3 >Enter Details</h3>
+        <form autocomplete="off">
+            <input type="text" placeholder="first name " id="fname" ><br>
+            <input type="text" placeholder="last name" id="lname"><br>
+            <input type="text" placeholder="Qualification" id="qual" ><br>
+            <input type="email" placeholder="Email" id="email"><br>
+            <input type="tel" placeholder="  PhoneNumebr" id="phone" ><br>
+        </form>
+        <button id="submit" onclick="hidden_form()">Submit</button>
+    </div>
+    
+    <script src="./food_menu.js"></script>
+</body>
+
+</html>

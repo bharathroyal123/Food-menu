@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+section{
+    border: 2px solid grey;
+    padding: 1px;
+
+}
+#heading{
+    text-align: center;
+    margin: 2px;
+}
+h1{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background:skyblue;
+    border-radius: 5px;
+}
+.add{
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    color: skyblue;
+    margin-left: 10px;
+}
+#form{
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 10px 0 0 10px;
+    width: 250px;
+    background: gray;
+    border-radius: 5px;
+    display: none;
+    height: 340px;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+form{
+    margin: 5px;
+}
+#data{
+    margin: 5px;
+}
+h2{
+    text-align: center;
+}
+[type]{
+    margin: 5px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 2px;
+    outline: none;
+}
+button{
+    margin-left: 80px;
+    padding: 10px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+}
+th,td{
+    padding: 5px;
+    text-align: center;
+}
+.fa-trash{
+    color: red;
+}
+[type ^='s']{
+    text-align: center;
+    color: blue;
+    margin-left: 150px;
+    border: 2px solid violet;
+}
